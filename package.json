@@ -1,0 +1,16 @@
+{
+  "name": "aquorix",
+  "version": "1.0.0",
+  "description": "AQUORIX - Smart IoT Water Purification & Distribution Monitoring",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "start": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "backend": "node backend/server.js",
+    "frontend": "npm --prefix frontend run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
